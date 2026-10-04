@@ -1,0 +1,75 @@
+# Build de CMake
+build/
+build-*/
+cmake-build-*/
+out/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+_deps/
+
+# Ejecutables y librerias
+*.exe
+*.out
+*.app
+*.so
+*.so.*
+*.dylib
+*.dll
+*.lib
+*.a
+*.o
+*.obj
+*.gyp
+*.gyp.gz
+
+# Qt / CMake generados
+*_autogen/
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+.qt/
+*.qmlc
+*.jsc
+*.moc
+*.moc_*
+
+# Arte generado (no versionar salidas)
+/*.png
+/*.webp
+/*.txt
+/*.html
+/*.jpg
+/*.jpeg
+/*.rgba.txt
+
+# El original y su referencia se versionan aparte en ../ascii maker/
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.\#*
+\#*\#
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+
+# Python (por si alguien mete un script de ayuda)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
